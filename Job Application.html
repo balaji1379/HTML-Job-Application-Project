@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend align="center">JOB APPLICATION FORM</legend>
+    <form>
+    <h2 align="center">APPLICATION FORM</h2>
+    <h3>PERSONAL INFORMATION</h3>
+    <label> Full Name :</label>&nbsp; &nbsp; &nbsp;
+    <input type="text" name="fullname" size="30" required>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+    <label> Email Address :</label>&nbsp; &nbsp; &nbsp;
+    <input type="email" name="emailaddress" size="20" required>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+
+    <label>Date Of Birth :</label>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+    <input type="date" name="dateofbirth">
+    <br><br><br>
+    <label>Gender :</label>&nbsp;&nbsp; &nbsp;&nbsp;
+    <input type="radio" value="Male" name="Gender">Male
+    <input type="radio" value="Female" name="Gender">Female
+    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+
+    <label>Address :</label>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; 
+    <input type="text" name="address" size="22">
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+    <label>Phone Number :</label>&nbsp; &nbsp; &nbsp;
+    <input type="number" name="number" size="30">
+    <br>
+    <h3>EDUCATION</h3>
+    <label>School/Institution :</label>&nbsp; &nbsp; &nbsp;
+    <input type="text" name="schoolinstitution" size="30">
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <label>Certification :</label>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+    <input type="text" name="certification" size="30">
+    <br><br><br>
+    <label>Percentage :</label>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+    <input type="number" name="percentage" step="0.1" minlength="0" maxlength="100" size="30" >&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+    <label>Year Completed :</label>&nbsp; &nbsp; &nbsp;
+    <input type="number" name="yearcompleted" size="20">
+    <br><br>
+    <h3>SKILLS</h3>
+    <label>Select The Skills :</label>&nbsp; &nbsp;
+    <input type="checkbox" name="Skills" value="HTML" >HTML
+    <input type="checkbox" name="Skills" value="CSS" >CSS
+    <input type="checkbox" name="Skills" value="JS" >Java Script
+    <input type="checkbox" name="Skills" value="BS" >BootStrap
+    <input type="checkbox" name="Skills" value="RJS" >React Js
+    <input type="checkbox" name="Skills" value="Redux" >Redux
+    <input type="checkbox" name="Skills" value="Angular" >Angular
+    <input type="checkbox" name="Skills" value="VUE JS" >VUE JS
+    <br><br>
+    <label>Select The Role : </label>&nbsp; &nbsp;
+    <select>
+    <option>Choose Any One</option>
+    <option>Front End Developer</option>
+    <option>Back End Developer</option>
+    <option>Java Full Stack Developer</option>
+    <option>Ai Developer</option>
+    </select>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+    <label>Upload Resume And Certificates :</label>
+    <input type="file" name="Resume">
+    <br><br>
+    <center>
+        <label>Description</label>
+    <textarea rows="3" cols="150"></textarea>
+    </center>
+    
+    <center>
+    <button  type="reset" name="reset"> Reset</button>
+    <button  type="submit" name="submit">submit</button>
+    </center>
+    </form>
+    </fieldset>
+
+</body>
+</html>
